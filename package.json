@@ -1,0 +1,24 @@
+{
+  "name": "three-column_card",
+  "version": "1.0.0",
+  "description": "Responsive three-column preview card component project using CSS Flexbox.\r This project is designed and represents the challenge from Frontend Mentor (frontendmentor.io).",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input_style_sheet.css -o ./dist/css/output_style_sheet.css",
+    "watch": "tailwindcss -i ./src/input_style_sheet.css -o ./dist/css/output_style_sheet.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/St3f4nn/three-column_card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/St3f4nn/three-column_card/issues"
+  },
+  "homepage": "https://github.com/St3f4nn/three-column_card#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
