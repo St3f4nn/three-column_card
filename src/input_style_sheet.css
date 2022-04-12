@@ -7,12 +7,12 @@
         @apply px-10 py-50;
     }
     .card-heading {
-        @apply font-bigShouldersDisplay font-bold text-f2f2f2 text-3xl sm:text-5xl mt-10;
+        @apply mt-10 text-3xl font-bold font-bigShouldersDisplay text-f2f2f2 sm:text-5xl;
     }
     .card-text {
-        @apply font-lexendDeca font-normal text-transparentWhite mt-10 leading-loose text-base lg:text-15 lg:max-w-210;
+        @apply mt-10 text-base font-normal leading-relaxed font-lexendDeca text-transparentWhite lg:text-15 lg:max-w-210;
     }
     .card-btn-link {
-        @apply font-lexendDeca font-normal text-15 py-2 px-4 sm:py-4 sm:px-8 bg-f2f2f2 transition-all border-2 border-solid border-f2f2f2 rounded-full hover:bg-transparent hover:text-f2f2f2;
+        @apply px-4 py-2 font-normal transition-all border-2 border-solid rounded-full font-lexendDeca text-15 sm:py-4 sm:px-8 bg-f2f2f2 border-f2f2f2 hover:bg-transparent hover:text-f2f2f2;
     }
 }
